@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tugas2_PemrogramanMobile</string>
+    <string name="membuat_broadcast">Membuat Broadcast</string>
+    <string name="menu">Menu</string>
+    <string name="example_of_broadcast">Example of Broadcast</string>
+    <string name="todo">TODO</string>
+    <string name="broadcast_intent">Broadcast Intent</string>
+    <string name="broadcast_baterry">Broadcast Baterry</string>
+</resources>

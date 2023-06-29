@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.tugas2_pemrogramanmobile.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_of_broadcast"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/membuat_broadcast"
+        android:textColor="#ff87ff09"
+        android:textSize="30sp"
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/ic_baseline_broadcast_on_home_24"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="@string/broadcast_intent"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="@string/broadcast_baterry"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
